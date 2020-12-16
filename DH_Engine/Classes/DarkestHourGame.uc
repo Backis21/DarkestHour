@@ -5475,8 +5475,8 @@ defaultproperties
     Begin Object Class=UVersion Name=VersionObject
         Major=9
         Minor=9
-        Patch=0
-        Prerelease="beta.1"
+        Patch=8
+        Prerelease=""
     End Object
     Version=VersionObject
 
@@ -5499,7 +5499,7 @@ defaultproperties
     SurrenderCooldownSeconds=300
     SurrenderEndRoundDelaySeconds=15
     SurrenderRoundTimeRequiredSeconds=900
-    SurrenderReinforcementsRequiredPercent=0.50
+    SurrenderReinforcementsRequiredPercent=1.0 // disabled by default
     SurrenderNominationsThresholdPercent=0.15
     SurrenderVotesThresholdPercent=0.5
 }
